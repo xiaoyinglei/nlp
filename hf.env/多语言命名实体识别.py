@@ -5,7 +5,7 @@ from transformers.modeling_outputs import TokenClassifierOutput
 from transformers.models.roberta.modeling_roberta import RobertaModel
 from transformers.models.roberta.modeling_roberta import RobertaPreTrainedModel
 import torch
-
+#
 # 必须提前定义
 tags = ["O", "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC"]
 index2tag = {i: tag for i, tag in enumerate(tags)}
